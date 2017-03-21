@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DBF81A1E819EF600D9F0E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF8191E819EF600D9F0E8 /* main.m */; };
+		84DBF81D1E819EF600D9F0E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF81C1E819EF600D9F0E8 /* AppDelegate.m */; };
+		84DBF8201E819EF600D9F0E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF81F1E819EF600D9F0E8 /* ViewController.m */; };
+		84DBF8231E819EF600D9F0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF8211E819EF600D9F0E8 /* Main.storyboard */; };
+		84DBF8261E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF8241E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld */; };
+		84DBF8281E819EF600D9F0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF8271E819EF600D9F0E8 /* Assets.xcassets */; };
+		84DBF82B1E819EF600D9F0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF8291E819EF600D9F0E8 /* LaunchScreen.storyboard */; };
+		F590FFACC2AB6E64273DF1BB /* libPods-GithubReader ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC790D0E49EE7993DFAC7C9 /* libPods-GithubReader ObjC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		378677934BF350A11B85B862 /* Pods-GithubReader ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubReader ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GithubReader ObjC/Pods-GithubReader ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC790D0E49EE7993DFAC7C9 /* libPods-GithubReader ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GithubReader ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DBF8151E819EF600D9F0E8 /* GithubReader ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GithubReader ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DBF8191E819EF600D9F0E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DBF81B1E819EF600D9F0E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84DBF81C1E819EF600D9F0E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84DBF81E1E819EF600D9F0E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84DBF81F1E819EF600D9F0E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84DBF8221E819EF600D9F0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DBF8251E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubReader_ObjC.xcdatamodel; sourceTree = "<group>"; };
+		84DBF8271E819EF600D9F0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DBF82A1E819EF600D9F0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DBF82C1E819EF600D9F0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A8CBE0D14F7CE7D26518EE /* Pods-GithubReader ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubReader ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubReader ObjC/Pods-GithubReader ObjC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DBF8121E819EF600D9F0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F590FFACC2AB6E64273DF1BB /* libPods-GithubReader ObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		357BAD46A3DF075839CAC1C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				378677934BF350A11B85B862 /* Pods-GithubReader ObjC.debug.xcconfig */,
+				F3A8CBE0D14F7CE7D26518EE /* Pods-GithubReader ObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84DBF80C1E819EF600D9F0E8 = {
+			isa = PBXGroup;
+			children = (
+				84DBF8171E819EF600D9F0E8 /* GithubReader ObjC */,
+				84DBF8161E819EF600D9F0E8 /* Products */,
+				357BAD46A3DF075839CAC1C1 /* Pods */,
+				CE1BA418D554ED750F4B65DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84DBF8161E819EF600D9F0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF8151E819EF600D9F0E8 /* GithubReader ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DBF8171E819EF600D9F0E8 /* GithubReader ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF81B1E819EF600D9F0E8 /* AppDelegate.h */,
+				84DBF81C1E819EF600D9F0E8 /* AppDelegate.m */,
+				84DBF81E1E819EF600D9F0E8 /* ViewController.h */,
+				84DBF81F1E819EF600D9F0E8 /* ViewController.m */,
+				84DBF8211E819EF600D9F0E8 /* Main.storyboard */,
+				84DBF8271E819EF600D9F0E8 /* Assets.xcassets */,
+				84DBF8291E819EF600D9F0E8 /* LaunchScreen.storyboard */,
+				84DBF82C1E819EF600D9F0E8 /* Info.plist */,
+				84DBF8241E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld */,
+				84DBF8181E819EF600D9F0E8 /* Supporting Files */,
+			);
+			path = "GithubReader ObjC";
+			sourceTree = "<group>";
+		};
+		84DBF8181E819EF600D9F0E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF8191E819EF600D9F0E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE1BA418D554ED750F4B65DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AC790D0E49EE7993DFAC7C9 /* libPods-GithubReader ObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DBF8141E819EF600D9F0E8 /* GithubReader ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DBF82F1E819EF600D9F0E8 /* Build configuration list for PBXNativeTarget "GithubReader ObjC" */;
+			buildPhases = (
+				3D20E9442AA3025217DAD6FA /* [CP] Check Pods Manifest.lock */,
+				84DBF8111E819EF600D9F0E8 /* Sources */,
+				84DBF8121E819EF600D9F0E8 /* Frameworks */,
+				84DBF8131E819EF600D9F0E8 /* Resources */,
+				91A4452FA4B120DBEBC86FE0 /* [CP] Embed Pods Frameworks */,
+				E55BF448206FCFA10A5FEA70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GithubReader ObjC";
+			productName = "GithubReader ObjC";
+			productReference = 84DBF8151E819EF600D9F0E8 /* GithubReader ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DBF80D1E819EF600D9F0E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrey Dorokhin";
+				TargetAttributes = {
+					84DBF8141E819EF600D9F0E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 26KM8XPN98;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84DBF8101E819EF600D9F0E8 /* Build configuration list for PBXProject "GithubReader ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DBF80C1E819EF600D9F0E8;
+			productRefGroup = 84DBF8161E819EF600D9F0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DBF8141E819EF600D9F0E8 /* GithubReader ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DBF8131E819EF600D9F0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DBF82B1E819EF600D9F0E8 /* LaunchScreen.storyboard in Resources */,
+				84DBF8281E819EF600D9F0E8 /* Assets.xcassets in Resources */,
+				84DBF8231E819EF600D9F0E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D20E9442AA3025217DAD6FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91A4452FA4B120DBEBC86FE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubReader ObjC/Pods-GithubReader ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E55BF448206FCFA10A5FEA70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubReader ObjC/Pods-GithubReader ObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DBF8111E819EF600D9F0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DBF8201E819EF600D9F0E8 /* ViewController.m in Sources */,
+				84DBF8261E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld in Sources */,
+				84DBF81D1E819EF600D9F0E8 /* AppDelegate.m in Sources */,
+				84DBF81A1E819EF600D9F0E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84DBF8211E819EF600D9F0E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DBF8221E819EF600D9F0E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DBF8291E819EF600D9F0E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DBF82A1E819EF600D9F0E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DBF82D1E819EF600D9F0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84DBF82E1E819EF600D9F0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DBF8301E819EF600D9F0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378677934BF350A11B85B862 /* Pods-GithubReader ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26KM8XPN98;
+				INFOPLIST_FILE = "GithubReader ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreydorokyin.GithubReader-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84DBF8311E819EF600D9F0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A8CBE0D14F7CE7D26518EE /* Pods-GithubReader ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26KM8XPN98;
+				INFOPLIST_FILE = "GithubReader ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreydorokyin.GithubReader-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DBF8101E819EF600D9F0E8 /* Build configuration list for PBXProject "GithubReader ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DBF82D1E819EF600D9F0E8 /* Debug */,
+				84DBF82E1E819EF600D9F0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DBF82F1E819EF600D9F0E8 /* Build configuration list for PBXNativeTarget "GithubReader ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DBF8301E819EF600D9F0E8 /* Debug */,
+				84DBF8311E819EF600D9F0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84DBF8241E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84DBF8251E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodel */,
+			);
+			currentVersion = 84DBF8251E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodel */;
+			path = GithubReader_ObjC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84DBF80D1E819EF600D9F0E8 /* Project object */;
+}
