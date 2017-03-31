@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DataManager.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface AppDelegate ()
 
@@ -16,10 +18,33 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    [[AFNetworkReachabilityManager sharedManager]setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status){
+        if(status == AFNetworkReachabilityStatusReachableViaWWAN || status == AFNetworkReachabilityStatusReachableViaWiFi) {
+
+        }else {
+            [self showMessage:@"Please Check Your Internet Connection And Try Again" withTitle:@"No Internet"];
+        }
+    }];
+    
     return YES;
 }
 
+- (void)showMessage:(NSString *)message withTitle:(NSString *)title {
+    UIAlertController * alert = [UIAlertController alertControllerWithTitle:title
+                                                                    message:message
+                                                             preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK"
+                                                       style:UIAlertActionStyleDefault
+                                                     handler:^(UIAlertAction *action){
+        
+                                                     }];
+    
+    [alert addAction:okAction];
+    UIViewController *vc = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
+    [vc presentViewController:alert animated:YES completion:nil];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -46,53 +71,31 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
-    [self saveContext];
+    [[DataManager sharedManager] saveContext];
 }
 
-
-#pragma mark - Core Data stack
-
-@synthesize persistentContainer = _persistentContainer;
-
-- (NSPersistentContainer *)persistentContainer {
-    // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
-    @synchronized (self) {
-        if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"GithubReader_ObjC"];
-            [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
-                if (error != nil) {
-                    // Replace this implementation with code to handle the error appropriately.
-                    // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                    
-                    /*
-                     Typical reasons for an error here include:
-                     * The parent directory does not exist, cannot be created, or disallows writing.
-                     * The persistent store is not accessible, due to permissions or data protection when the device is locked.
-                     * The device is out of space.
-                     * The store could not be migrated to the current model version.
-                     Check the error message to determine what the actual problem was.
-                    */
-                    NSLog(@"Unresolved error %@, %@", error, error.userInfo);
-                    abort();
-                }
-            }];
-        }
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    NSString *value = [[[url.absoluteString componentsSeparatedByString:@"="] lastObject] stringByRemovingPercentEncoding];
+    
+    self.authCode = value;
+    
+    if(url) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"LoginSuccess" object:nil];
     }
     
-    return _persistentContainer;
+    return YES;
 }
 
-#pragma mark - Core Data Saving support
 
-- (void)saveContext {
-    NSManagedObjectContext *context = self.persistentContainer.viewContext;
-    NSError *error = nil;
-    if ([context hasChanges] && ![context save:&error]) {
-        // Replace this implementation with code to handle the error appropriately.
-        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-        NSLog(@"Unresolved error %@, %@", error, error.userInfo);
-        abort();
-    }
+#pragma mark- App's Common Methods
+- (NSString *)convertToJSONString:(id)response {
+    NSError *error;
+    NSData *JSONData = [NSJSONSerialization dataWithJSONObject:response options:NSJSONWritingPrettyPrinted error:&error];
+    
+    NSString *JSONString = [[NSString alloc] initWithData:JSONData encoding:NSUTF8StringEncoding] ;
+    
+    return JSONString;
 }
+
 
 @end

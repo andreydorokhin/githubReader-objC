@@ -7,9 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844A5EB21E8B87CD00B7CA23 /* 1490784143_github_social_media_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EB11E8B87CD00B7CA23 /* 1490784143_github_social_media_logo.png */; };
+		844A5EB41E8B87E000B7CA23 /* GitHub_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EB31E8B87E000B7CA23 /* GitHub_Logo.png */; };
+		844A5EBB1E8B87FB00B7CA23 /* GitHub-Mark-32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EB51E8B87FB00B7CA23 /* GitHub-Mark-32px.png */; };
+		844A5EBC1E8B87FB00B7CA23 /* GitHub-Mark-64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EB61E8B87FB00B7CA23 /* GitHub-Mark-64px.png */; };
+		844A5EBD1E8B87FB00B7CA23 /* GitHub-Mark-120px-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EB71E8B87FB00B7CA23 /* GitHub-Mark-120px-plus.png */; };
+		844A5EBE1E8B87FB00B7CA23 /* GitHub-Mark-Light-32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EB81E8B87FB00B7CA23 /* GitHub-Mark-Light-32px.png */; };
+		844A5EBF1E8B87FB00B7CA23 /* GitHub-Mark-Light-64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EB91E8B87FB00B7CA23 /* GitHub-Mark-Light-64px.png */; };
+		844A5EC01E8B87FB00B7CA23 /* GitHub-Mark-Light-120px-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EBA1E8B87FB00B7CA23 /* GitHub-Mark-Light-120px-plus.png */; };
+		844A5EC21E8B880900B7CA23 /* Octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A5EC11E8B880900B7CA23 /* Octocat.png */; };
+		844A5EC51E8BAC4100B7CA23 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A5EC41E8BAC4000B7CA23 /* ForgotPasswordViewController.m */; };
+		84596FCE1E8CEB23004D3F24 /* RepositoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FCD1E8CEB23004D3F24 /* RepositoriesViewController.m */; };
+		84596FD21E8CF48C004D3F24 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FD11E8CF48C004D3F24 /* DataManager.m */; };
+		84596FD61E8CF7EE004D3F24 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FD51E8CF7EE004D3F24 /* Repository.m */; };
+		84596FD91E8CF8F1004D3F24 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FD81E8CF8F1004D3F24 /* Owner.m */; };
+		84596FDC1E8CF958004D3F24 /* Permissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FDB1E8CF958004D3F24 /* Permissions.m */; };
+		84596FDF1E8CFB44004D3F24 /* UserRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FDE1E8CFB44004D3F24 /* UserRepository.m */; };
+		84596FE31E8D15C7004D3F24 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FE21E8D15C7004D3F24 /* ServerManager.m */; };
+		84596FE71E8E2E93004D3F24 /* RepositoriesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FE51E8E2E93004D3F24 /* RepositoriesCell.m */; };
+		84596FE81E8E2E93004D3F24 /* RepositoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84596FE61E8E2E93004D3F24 /* RepositoriesCell.xib */; };
+		84596FED1E8E4ED0004D3F24 /* SearchingRepositoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FEC1E8E4ECF004D3F24 /* SearchingRepositoriesViewController.m */; };
+		84596FF41E8E5503004D3F24 /* presentation.png in Resources */ = {isa = PBXBuildFile; fileRef = 84596FEE1E8E5503004D3F24 /* presentation.png */; };
+		84596FF51E8E5503004D3F24 /* presentation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84596FEF1E8E5503004D3F24 /* presentation@2x.png */; };
+		84596FF61E8E5503004D3F24 /* presentation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84596FF01E8E5503004D3F24 /* presentation@3x.png */; };
+		84596FF71E8E5503004D3F24 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 84596FF11E8E5503004D3F24 /* search.png */; };
+		84596FF81E8E5503004D3F24 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84596FF21E8E5503004D3F24 /* search@2x.png */; };
+		84596FF91E8E5503004D3F24 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84596FF31E8E5503004D3F24 /* search@3x.png */; };
+		84596FFD1E8EAD40004D3F24 /* NSString+emailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84596FFC1E8EAD40004D3F24 /* NSString+emailValidation.m */; };
 		84DBF81A1E819EF600D9F0E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF8191E819EF600D9F0E8 /* main.m */; };
 		84DBF81D1E819EF600D9F0E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF81C1E819EF600D9F0E8 /* AppDelegate.m */; };
-		84DBF8201E819EF600D9F0E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF81F1E819EF600D9F0E8 /* ViewController.m */; };
+		84DBF8201E819EF600D9F0E8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF81F1E819EF600D9F0E8 /* LoginViewController.m */; };
 		84DBF8231E819EF600D9F0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF8211E819EF600D9F0E8 /* Main.storyboard */; };
 		84DBF8261E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF8241E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld */; };
 		84DBF8281E819EF600D9F0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF8271E819EF600D9F0E8 /* Assets.xcassets */; };
@@ -20,12 +47,52 @@
 /* Begin PBXFileReference section */
 		378677934BF350A11B85B862 /* Pods-GithubReader ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubReader ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GithubReader ObjC/Pods-GithubReader ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		4AC790D0E49EE7993DFAC7C9 /* libPods-GithubReader ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GithubReader ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844A5EB11E8B87CD00B7CA23 /* 1490784143_github_social_media_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1490784143_github_social_media_logo.png; sourceTree = "<group>"; };
+		844A5EB31E8B87E000B7CA23 /* GitHub_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GitHub_Logo.png; sourceTree = "<group>"; };
+		844A5EB51E8B87FB00B7CA23 /* GitHub-Mark-32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-32px.png"; sourceTree = "<group>"; };
+		844A5EB61E8B87FB00B7CA23 /* GitHub-Mark-64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-64px.png"; sourceTree = "<group>"; };
+		844A5EB71E8B87FB00B7CA23 /* GitHub-Mark-120px-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-120px-plus.png"; sourceTree = "<group>"; };
+		844A5EB81E8B87FB00B7CA23 /* GitHub-Mark-Light-32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-Light-32px.png"; sourceTree = "<group>"; };
+		844A5EB91E8B87FB00B7CA23 /* GitHub-Mark-Light-64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-Light-64px.png"; sourceTree = "<group>"; };
+		844A5EBA1E8B87FB00B7CA23 /* GitHub-Mark-Light-120px-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-Light-120px-plus.png"; sourceTree = "<group>"; };
+		844A5EC11E8B880900B7CA23 /* Octocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Octocat.png; sourceTree = "<group>"; };
+		844A5EC31E8BAC4000B7CA23 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordViewController.h; path = ../ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		844A5EC41E8BAC4000B7CA23 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPasswordViewController.m; path = ../ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		844A5EC61E8BAE2A00B7CA23 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		84596FCC1E8CEB23004D3F24 /* RepositoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepositoriesViewController.h; path = ../RepositoriesViewController.h; sourceTree = "<group>"; };
+		84596FCD1E8CEB23004D3F24 /* RepositoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepositoriesViewController.m; path = ../RepositoriesViewController.m; sourceTree = "<group>"; };
+		84596FD01E8CF48C004D3F24 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		84596FD11E8CF48C004D3F24 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		84596FD41E8CF7EE004D3F24 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		84596FD51E8CF7EE004D3F24 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		84596FD71E8CF8F1004D3F24 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		84596FD81E8CF8F1004D3F24 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
+		84596FDA1E8CF958004D3F24 /* Permissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Permissions.h; sourceTree = "<group>"; };
+		84596FDB1E8CF958004D3F24 /* Permissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Permissions.m; sourceTree = "<group>"; };
+		84596FDD1E8CFB44004D3F24 /* UserRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRepository.h; sourceTree = "<group>"; };
+		84596FDE1E8CFB44004D3F24 /* UserRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRepository.m; sourceTree = "<group>"; };
+		84596FE01E8CFC0C004D3F24 /* UserRepositoryDataModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserRepositoryDataModels.h; sourceTree = "<group>"; };
+		84596FE11E8D15C7004D3F24 /* ServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		84596FE21E8D15C7004D3F24 /* ServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		84596FE41E8E2E93004D3F24 /* RepositoriesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepositoriesCell.h; path = ../RepositoriesCell.h; sourceTree = "<group>"; };
+		84596FE51E8E2E93004D3F24 /* RepositoriesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepositoriesCell.m; path = ../RepositoriesCell.m; sourceTree = "<group>"; };
+		84596FE61E8E2E93004D3F24 /* RepositoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RepositoriesCell.xib; path = ../RepositoriesCell.xib; sourceTree = "<group>"; };
+		84596FEB1E8E4ECF004D3F24 /* SearchingRepositoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchingRepositoriesViewController.h; sourceTree = "<group>"; };
+		84596FEC1E8E4ECF004D3F24 /* SearchingRepositoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchingRepositoriesViewController.m; sourceTree = "<group>"; };
+		84596FEE1E8E5503004D3F24 /* presentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presentation.png; sourceTree = "<group>"; };
+		84596FEF1E8E5503004D3F24 /* presentation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presentation@2x.png"; sourceTree = "<group>"; };
+		84596FF01E8E5503004D3F24 /* presentation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presentation@3x.png"; sourceTree = "<group>"; };
+		84596FF11E8E5503004D3F24 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		84596FF21E8E5503004D3F24 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		84596FF31E8E5503004D3F24 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
+		84596FFB1E8EAD40004D3F24 /* NSString+emailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+emailValidation.h"; sourceTree = "<group>"; };
+		84596FFC1E8EAD40004D3F24 /* NSString+emailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+emailValidation.m"; sourceTree = "<group>"; };
 		84DBF8151E819EF600D9F0E8 /* GithubReader ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GithubReader ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DBF8191E819EF600D9F0E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84DBF81B1E819EF600D9F0E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84DBF81C1E819EF600D9F0E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84DBF81E1E819EF600D9F0E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84DBF81F1E819EF600D9F0E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84DBF81B1E819EF600D9F0E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		84DBF81C1E819EF600D9F0E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		84DBF81E1E819EF600D9F0E8 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		84DBF81F1E819EF600D9F0E8 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
 		84DBF8221E819EF600D9F0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DBF8251E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubReader_ObjC.xcdatamodel; sourceTree = "<group>"; };
 		84DBF8271E819EF600D9F0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +122,94 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		844A5EB01E8B87B400B7CA23 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				844A5EC11E8B880900B7CA23 /* Octocat.png */,
+				844A5EB51E8B87FB00B7CA23 /* GitHub-Mark-32px.png */,
+				844A5EB61E8B87FB00B7CA23 /* GitHub-Mark-64px.png */,
+				844A5EB71E8B87FB00B7CA23 /* GitHub-Mark-120px-plus.png */,
+				844A5EB81E8B87FB00B7CA23 /* GitHub-Mark-Light-32px.png */,
+				844A5EB91E8B87FB00B7CA23 /* GitHub-Mark-Light-64px.png */,
+				844A5EBA1E8B87FB00B7CA23 /* GitHub-Mark-Light-120px-plus.png */,
+				844A5EB31E8B87E000B7CA23 /* GitHub_Logo.png */,
+				844A5EB11E8B87CD00B7CA23 /* 1490784143_github_social_media_logo.png */,
+				84596FEE1E8E5503004D3F24 /* presentation.png */,
+				84596FEF1E8E5503004D3F24 /* presentation@2x.png */,
+				84596FF01E8E5503004D3F24 /* presentation@3x.png */,
+				84596FF11E8E5503004D3F24 /* search.png */,
+				84596FF21E8E5503004D3F24 /* search@2x.png */,
+				84596FF31E8E5503004D3F24 /* search@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		84596FCF1E8CF468004D3F24 /* Helper classes */ = {
+			isa = PBXGroup;
+			children = (
+				84596FD01E8CF48C004D3F24 /* DataManager.h */,
+				84596FD11E8CF48C004D3F24 /* DataManager.m */,
+				84596FE11E8D15C7004D3F24 /* ServerManager.h */,
+				84596FE21E8D15C7004D3F24 /* ServerManager.m */,
+				84596FFA1E8EACF3004D3F24 /* Category */,
+			);
+			path = "Helper classes";
+			sourceTree = "<group>";
+		};
+		84596FD31E8CF7D9004D3F24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84596FE01E8CFC0C004D3F24 /* UserRepositoryDataModels.h */,
+				84596FD71E8CF8F1004D3F24 /* Owner.h */,
+				84596FD81E8CF8F1004D3F24 /* Owner.m */,
+				84596FDA1E8CF958004D3F24 /* Permissions.h */,
+				84596FDB1E8CF958004D3F24 /* Permissions.m */,
+				84596FD41E8CF7EE004D3F24 /* Repository.h */,
+				84596FD51E8CF7EE004D3F24 /* Repository.m */,
+				84596FDD1E8CFB44004D3F24 /* UserRepository.h */,
+				84596FDE1E8CFB44004D3F24 /* UserRepository.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84596FE91E8E334B004D3F24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF81B1E819EF600D9F0E8 /* AppDelegate.h */,
+				84DBF81C1E819EF600D9F0E8 /* AppDelegate.m */,
+				84DBF81E1E819EF600D9F0E8 /* LoginViewController.h */,
+				84DBF81F1E819EF600D9F0E8 /* LoginViewController.m */,
+				844A5EC31E8BAC4000B7CA23 /* ForgotPasswordViewController.h */,
+				844A5EC41E8BAC4000B7CA23 /* ForgotPasswordViewController.m */,
+				84596FCC1E8CEB23004D3F24 /* RepositoriesViewController.h */,
+				84596FCD1E8CEB23004D3F24 /* RepositoriesViewController.m */,
+				84596FEB1E8E4ECF004D3F24 /* SearchingRepositoriesViewController.h */,
+				84596FEC1E8E4ECF004D3F24 /* SearchingRepositoriesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84596FEA1E8E334B004D3F24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84596FE41E8E2E93004D3F24 /* RepositoriesCell.h */,
+				84596FE51E8E2E93004D3F24 /* RepositoriesCell.m */,
+				84596FE61E8E2E93004D3F24 /* RepositoriesCell.xib */,
+				84DBF8211E819EF600D9F0E8 /* Main.storyboard */,
+				84DBF8291E819EF600D9F0E8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84596FFA1E8EACF3004D3F24 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				84596FFB1E8EAD40004D3F24 /* NSString+emailValidation.h */,
+				84596FFC1E8EAD40004D3F24 /* NSString+emailValidation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		84DBF80C1E819EF600D9F0E8 = {
 			isa = PBXGroup;
 			children = (
@@ -76,15 +231,10 @@
 		84DBF8171E819EF600D9F0E8 /* GithubReader ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				84DBF81B1E819EF600D9F0E8 /* AppDelegate.h */,
-				84DBF81C1E819EF600D9F0E8 /* AppDelegate.m */,
-				84DBF81E1E819EF600D9F0E8 /* ViewController.h */,
-				84DBF81F1E819EF600D9F0E8 /* ViewController.m */,
-				84DBF8211E819EF600D9F0E8 /* Main.storyboard */,
-				84DBF8271E819EF600D9F0E8 /* Assets.xcassets */,
-				84DBF8291E819EF600D9F0E8 /* LaunchScreen.storyboard */,
-				84DBF82C1E819EF600D9F0E8 /* Info.plist */,
-				84DBF8241E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld */,
+				84596FCF1E8CF468004D3F24 /* Helper classes */,
+				84596FD31E8CF7D9004D3F24 /* Models */,
+				84596FE91E8E334B004D3F24 /* Controller */,
+				84596FEA1E8E334B004D3F24 /* View */,
 				84DBF8181E819EF600D9F0E8 /* Supporting Files */,
 			);
 			path = "GithubReader ObjC";
@@ -93,7 +243,12 @@
 		84DBF8181E819EF600D9F0E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				844A5EB01E8B87B400B7CA23 /* Images */,
+				84DBF8271E819EF600D9F0E8 /* Assets.xcassets */,
+				84DBF82C1E819EF600D9F0E8 /* Info.plist */,
+				84DBF8241E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld */,
 				84DBF8191E819EF600D9F0E8 /* main.m */,
+				844A5EC61E8BAE2A00B7CA23 /* Defines.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,9 +323,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84596FF81E8E5503004D3F24 /* search@2x.png in Resources */,
+				84596FF51E8E5503004D3F24 /* presentation@2x.png in Resources */,
+				844A5EBE1E8B87FB00B7CA23 /* GitHub-Mark-Light-32px.png in Resources */,
+				844A5EBC1E8B87FB00B7CA23 /* GitHub-Mark-64px.png in Resources */,
+				84596FF71E8E5503004D3F24 /* search.png in Resources */,
+				844A5EBD1E8B87FB00B7CA23 /* GitHub-Mark-120px-plus.png in Resources */,
 				84DBF82B1E819EF600D9F0E8 /* LaunchScreen.storyboard in Resources */,
 				84DBF8281E819EF600D9F0E8 /* Assets.xcassets in Resources */,
+				844A5EC01E8B87FB00B7CA23 /* GitHub-Mark-Light-120px-plus.png in Resources */,
+				84596FE81E8E2E93004D3F24 /* RepositoriesCell.xib in Resources */,
+				84596FF91E8E5503004D3F24 /* search@3x.png in Resources */,
+				844A5EB21E8B87CD00B7CA23 /* 1490784143_github_social_media_logo.png in Resources */,
+				844A5EC21E8B880900B7CA23 /* Octocat.png in Resources */,
+				844A5EBF1E8B87FB00B7CA23 /* GitHub-Mark-Light-64px.png in Resources */,
 				84DBF8231E819EF600D9F0E8 /* Main.storyboard in Resources */,
+				844A5EBB1E8B87FB00B7CA23 /* GitHub-Mark-32px.png in Resources */,
+				84596FF61E8E5503004D3F24 /* presentation@3x.png in Resources */,
+				844A5EB41E8B87E000B7CA23 /* GitHub_Logo.png in Resources */,
+				84596FF41E8E5503004D3F24 /* presentation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,10 +400,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DBF8201E819EF600D9F0E8 /* ViewController.m in Sources */,
+				84596FE31E8D15C7004D3F24 /* ServerManager.m in Sources */,
+				84DBF8201E819EF600D9F0E8 /* LoginViewController.m in Sources */,
 				84DBF8261E819EF600D9F0E8 /* GithubReader_ObjC.xcdatamodeld in Sources */,
+				84596FD21E8CF48C004D3F24 /* DataManager.m in Sources */,
 				84DBF81D1E819EF600D9F0E8 /* AppDelegate.m in Sources */,
+				844A5EC51E8BAC4100B7CA23 /* ForgotPasswordViewController.m in Sources */,
+				84596FFD1E8EAD40004D3F24 /* NSString+emailValidation.m in Sources */,
+				84596FCE1E8CEB23004D3F24 /* RepositoriesViewController.m in Sources */,
+				84596FDC1E8CF958004D3F24 /* Permissions.m in Sources */,
+				84596FD91E8CF8F1004D3F24 /* Owner.m in Sources */,
+				84596FE71E8E2E93004D3F24 /* RepositoriesCell.m in Sources */,
 				84DBF81A1E819EF600D9F0E8 /* main.m in Sources */,
+				84596FED1E8E4ED0004D3F24 /* SearchingRepositoriesViewController.m in Sources */,
+				84596FDF1E8CFB44004D3F24 /* UserRepository.m in Sources */,
+				84596FD61E8CF7EE004D3F24 /* Repository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +427,7 @@
 				84DBF8221E819EF600D9F0E8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		84DBF8291E819EF600D9F0E8 /* LaunchScreen.storyboard */ = {
@@ -253,6 +436,7 @@
 				84DBF82A1E819EF600D9F0E8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
